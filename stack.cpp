@@ -69,8 +69,8 @@ int Stack::Peek() const {
 }
 
 // Returns top index of the stack
-int Stack::get_Top() {
-    return top;
+int* Stack::get_Arr() {
+    return arr;
 }
 
 #endif
